@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from 'react';
 
 import './Index.css';
@@ -110,3 +111,16 @@ function App() {
 }
 
 export default App;
+=======
+
+const HomePage = () => {
+    return(
+        <>
+
+        </>
+    )
+}
+
+
+export default HomePage
+>>>>>>> d16db11683158f47788409f961f8413487c43e59
