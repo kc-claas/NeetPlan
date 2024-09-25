@@ -14,7 +14,9 @@ A screenshot can be found [here](./assets/Screenshot.png).
 
 
 ## Usage
-To use, navigate to the deployed site: [https://daily-planner-xw7d.onrender.com/](https://daily-planner-xw7d.onrender.com/). From there, users can sign up or log in if they've already done so. From the homepage, users can see the weather in their area if they've provided a US area code, fun facts, and any events they've scheduled for today. In the navigation their are options to view a calendar, create new events to keep track of, view and alter existing events, and change your user settings.
+To use, navigate to the deployed site: [https://daily-planner-xw7d.onrender.com/](https://daily-planner-xw7d.onrender.com/). From there, users can sign up, or log in if they've already done so. From the homepage, users can see the weather in their area if they've provided a US area code, are provided with fun facts, and can see a list of any events they've scheduled for today. In the navigation there are options to view a calendar, create new events to keep track of, view and alter existing events, and change your user settings, as well as log out.
+
+For the weather section to operate, users need to provide a valid US zip code when they sign up or update their user settings. For event dates to be linked into the calendar, they need to be entered in a mm/dd/yyyy format.
 
 ## License
 This application is covered under the [MIT](./LICENSE) license
