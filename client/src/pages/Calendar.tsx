@@ -156,7 +156,7 @@ const Calendar: React.FC = () => {
   return (
     <Container>
       <Row className="mb-4 align-items-center">
-        <Col className="text-center">
+        <Col className="text-center table-header-container">
           <Button onClick={() => navigateMonth(-1)}>&lt; Previous Month</Button>
           <h2 className="d-inline mx-3">{currentDate.toLocaleString('default', { month: 'long' })} {currentDate.getFullYear()}</h2>
           <Button onClick={() => navigateMonth(1)}>Next Month &gt;</Button>
