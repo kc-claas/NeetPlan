@@ -1,7 +1,7 @@
 # NeetPlan
 [![Static Badge](https://img.shields.io/badge/License-MIT-blue)](./LICENSE)
 
-![here](./assets/Screenshot.png)
+![screenshot](./assets/Screenshot.png)
 
 ## Description
 This web app can help you organize your daily plans, get weather and other information, and it has room to grow to implement even more functionality to help you manage your life.
