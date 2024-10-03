@@ -121,7 +121,7 @@ nav h1 {
 
 nav ul a li {
   padding: 10px 20px;
-  margin: 0 10px;
+  margin: 15px 10px 0 10px;
   background-color: #007bff;
   color: white;
   font-weight: 500;
@@ -133,8 +133,34 @@ nav ul a li:hover {
 
 }
 
+@media screen and (max-width:1200px) {
+  nav ul {flex-wrap: wrap;}
 
+  nav ul a {
+    min-width: 25%;
+  }
+}
 
+@media screen and (max-width:992px) {
+
+  nav ul a {
+    min-width: 33%;
+  }
+}
+
+@media screen and (max-width:768px) {
+
+  nav ul a {
+    min-width: 50%;
+  }
+}
+
+@media screen and (max-width:576px) {
+
+  nav ul a {
+    min-width: 90%;
+  }
+}
 
 
 /* Section Styles */
@@ -197,7 +223,11 @@ section {
   max-width: 40%;
 }
 
-
+@media screen and (max-width: 992px) {
+  #utilities {flex-direction: column}
+  #weather, #funfact {max-width: 80%}
+};
+  
 
 /* Reminders */
 .reminders ul li {
@@ -241,12 +271,13 @@ footer p {
 table {
   table-layout: fixed;
   width: 100%;
+  min-width: 768px;
   margin: 20px auto;
   border-collapse: collapse;
   background-color: #ffffff;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
-  overflow: hidden;
+  overflow-wrap: break-word;
 }
 
 thead th {
@@ -293,6 +324,16 @@ td:hover {
   margin: 0 5%;
 }
 
+.table-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .table-header-container {flex-direction: column;}
+}
 
 /* Hover Overlay Effect */
 .hover-overlay {
